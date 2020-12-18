@@ -3,8 +3,8 @@
 @import 'partials/_common';
 @import "partials/_nav";
 @import "partials/_header";
-@import "partials/main";
-@import "partials/footer";
+@import "partials/_main";
+@import "partials/_footer";
 
 // proprietá generali
 * {
@@ -14,3 +14,7 @@
 }
 
 // proprietá selettive
+.container {
+    width: 1200px;
+    height: 400px;
+}
