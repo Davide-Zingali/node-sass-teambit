@@ -1,12 +1,60 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid black;
+}
+nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+nav div:last-child {
+  display: flex;
+}
+
+header {
+  width: 70%;
+  margin: 80px auto;
+}
+header h1 {
+  font-size: 40px;
+  line-height: 70px;
+}
+header p {
+  font-size: 30px;
+  margin: 30px 0;
+}
+header > div {
+  display: flex;
+}
+header > div .box {
+  padding: 100px 0;
+}
+header > div .box div {
+  margin: 20px 0;
+}
+header > div .box div a {
+  text-decoration: none;
+}
+header > div .dx {
+  text-align: right;
+}
+header > div .dx img {
+  width: 80%;
+}
+header button {
+  background-color: #233569;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+}
+header span {
+  margin: 0 20px;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-.container {
-  width: 1200px;
-  height: 400px;
-  background-image: url(/images/review.jpg?bdbcea166e085401307f207333fdd2c5);
-}
-
