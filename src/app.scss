@@ -1,0 +1,16 @@
+// importazioni
+@import 'partials/_variables';
+@import 'partials/_common';
+@import "partials/_nav";
+@import "partials/_header";
+@import "partials/main";
+@import "partials/footer";
+
+// proprietá generali
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// proprietá selettive
