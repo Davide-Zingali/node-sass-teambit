@@ -1,0 +1,24 @@
+#sezione-1 {
+    background-color: #FFE7D2;
+    text-align: center;
+    padding: 100px 0;
+
+    .box {
+        width: 60%;
+        margin: 0 auto;
+
+        & > img:last-child {
+            height: 370px;
+        }
+    }
+
+    hr {
+        border: 1px solid #BDB5AF;
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .flex {
+        margin: 100px 0;
+    }
+}

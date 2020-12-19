@@ -53,8 +53,39 @@ header span {
   margin: 0 20px;
 }
 
+#sezione-1 {
+  background-color: #FFE7D2;
+  text-align: center;
+  padding: 100px 0;
+}
+#sezione-1 .box {
+  width: 60%;
+  margin: 0 auto;
+}
+#sezione-1 .box > img:last-child {
+  height: 370px;
+}
+#sezione-1 hr {
+  border: 1px solid #BDB5AF;
+  width: 80%;
+  margin: 100px auto;
+}
+#sezione-1 .flex {
+  margin: 100px 0;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #58402C;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex img {
+  height: 120px;
 }

@@ -3,7 +3,9 @@
 @import 'partials/_common';
 @import "partials/_nav";
 @import "partials/_header";
-@import "partials/_main";
+@import "partials/_section-1";
+@import "partials/_section-2";
+@import "partials/_section-3";
 @import "partials/_footer";
 
 // proprietá generali
@@ -11,6 +13,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #58402C;
 }
 
 // proprietá selettive
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+    img {
+        height: 120px;
+    }
+}
