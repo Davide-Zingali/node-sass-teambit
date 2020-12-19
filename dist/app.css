@@ -33,9 +33,6 @@ header > div .box {
 header > div .box div {
   margin: 20px 0;
 }
-header > div .box div a {
-  text-decoration: none;
-}
 header > div .dx {
   text-align: right;
 }
@@ -74,12 +71,41 @@ header span {
   margin: 100px 0;
 }
 
+#sezione-2 .box {
+  display: flex;
+  margin: 130px 50px;
+}
+#sezione-2 .box .box-img {
+  width: 50%;
+}
+#sezione-2 .box .box-img img {
+  width: 750px;
+}
+#sezione-2 .box .box-testo {
+  width: 25%;
+}
+#sezione-2 .box .box-testo > * {
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 35px;
+}
+#sezione-2 .box .box-testo img {
+  width: 280px;
+}
+#sezione-2 .due, #sezione-2 .quattro {
+  justify-content: end;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #58402C;
+}
+* a {
+  text-decoration: none;
+  color: #273A73;
 }
 
 .flex {

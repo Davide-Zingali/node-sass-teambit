@@ -1,0 +1,30 @@
+#sezione-2 {
+    .box {
+        display: flex;
+        margin: 130px 50px;
+        .box-img {
+            width: 50%;
+
+            img {
+                width: 750px;
+            }
+        }
+        .box-testo {
+            width: 25%;
+
+            & > * {
+                margin-bottom: 30px;
+                font-size: 25px;
+                line-height: 35px;
+            }
+
+            img {
+                width: 280px;
+            }
+        }
+    }
+
+    .due, .quattro {
+        justify-content: end;
+    }
+}
