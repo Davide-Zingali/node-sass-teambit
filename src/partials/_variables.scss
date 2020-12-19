@@ -4,7 +4,15 @@
     padding: 10px 15px;
     border-radius: 8px;
     border: none;
+
+    img {
+        width: 20px;
+    }
 }
+
+// variabili bordo
+$bordo-g: 1px solid #BDB5AF;
 
 // variabili colori
 $rosa: #FFE7D2;
+$bianco: white;

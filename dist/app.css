@@ -46,6 +46,9 @@ header button {
   border-radius: 8px;
   border: none;
 }
+header button img {
+  width: 20px;
+}
 header span {
   margin: 0 20px;
 }
@@ -94,6 +97,68 @@ header span {
 }
 #sezione-2 .due, #sezione-2 .quattro {
   justify-content: end;
+}
+
+#sezione-3 {
+  background-color: #FFE7D2;
+  text-align: center;
+}
+#sezione-3 h1 {
+  padding-top: 80px;
+  font-size: 36px;
+  line-height: 60px;
+}
+#sezione-3 #paragrafo-bianco {
+  border: 1px solid #BDB5AF;
+  border-radius: 8px;
+  background-color: white;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  text-align: left;
+  line-height: 27px;
+}
+#sezione-3 button {
+  background-color: #233569;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+}
+#sezione-3 button img {
+  width: 20px;
+}
+#sezione-3 button p {
+  display: inline-block;
+  color: white;
+}
+
+footer {
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+}
+footer div:first-child {
+  display: flex;
+  width: 30%;
+  margin-right: 70px;
+}
+footer div:first-child img {
+  height: 50px;
+  padding-right: 15px;
+}
+footer div:last-child {
+  display: flex;
+  width: 70%;
+}
+footer div:last-child ul {
+  width: calc(100% / 5);
+  margin: 0 10px;
+}
+footer div:last-child ul li {
+  list-style-type: none;
+  line-height: 35px;
 }
 
 * {

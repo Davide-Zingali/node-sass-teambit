@@ -1,0 +1,31 @@
+#sezione-3 {
+    background-color: $rosa;
+    text-align: center;
+
+    h1 {
+        padding-top: 80px;
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    #paragrafo-bianco {
+        border: $bordo-g;
+        border-radius: 8px;
+        background-color: $bianco;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px 30px;
+        text-align: left;
+        line-height: 27px;
+    }
+
+    button {
+        @include bottone-social;
+        display: flex;
+
+        p {
+            display: inline-block;
+            color: $bianco;
+        }
+    }
+}

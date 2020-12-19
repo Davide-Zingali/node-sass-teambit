@@ -1,0 +1,30 @@
+footer {
+    div:first-child {
+        display: flex;
+        width: 30%;
+        margin-right: 70px;
+
+        img {
+            height: 50px;
+            padding-right: 15px;
+        }
+    }
+
+    div:last-child {
+        display: flex;
+        width: 70%;
+
+        ul {
+            width: calc(100% / 5);
+            margin: 0 10px;
+            li {
+                list-style-type: none;
+                line-height: 35px;
+            }
+        }
+    }
+
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+}
