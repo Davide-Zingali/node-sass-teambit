@@ -17,12 +17,7 @@
         }
         .box-testo {
             width: 25%;
-
-            & > * {
-                margin-bottom: 30px;
-                font-size: 25px;
-                line-height: 35px;
-            }
+            margin: 0 30px;
 
             img {
                 width: 280px;

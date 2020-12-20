@@ -1,0 +1,9 @@
+.box-testo {
+    @each $item in h2, p, div, img {
+        #{$item} {
+            margin-bottom: 30px;
+            font-size: 22px;
+            line-height: 35px;
+        }
+    }
+}

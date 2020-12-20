@@ -1,14 +1,17 @@
 #sezione-3 {
-    background-color: $rosa;
+    background-color: $sfondo;
+    color: $testo-sfondo;
     text-align: center;
 
     h1 {
+        color: $testo-sfondo;
         padding-top: 80px;
         font-size: 36px;
         line-height: 60px;
     }
 
     #paragrafo-bianco {
+        color: black;
         border: $bordo-g;
         border-radius: 8px;
         background-color: $bianco;
@@ -19,7 +22,7 @@
         line-height: 27px;
         position: relative;
 
-        div:first-child {
+        #virgolette {
             position: absolute;
             left: 0;
             top: 0;
@@ -27,7 +30,7 @@
 
             i {
                 font-size: 40px;
-                color: #30488F;
+                color: black;
             }
         }
 
@@ -37,7 +40,14 @@
         }
 
         #face {
-            display: flex;
+            margin-top: 27px;
+            display: inline-flex;
+            & > div:last-child {
+                line-height: 20px;
+                margin-left: 10px;
+                font-size: 15px;
+                display: block;
+            }
         }
     }
 
@@ -55,7 +65,11 @@
         }
     }
 
-    div:last-child {
+    & > div:last-child {
         padding: 30px 0 50px 0;
+        
+        a {
+            color: $testo-sfondo;
+        }
     }
 }

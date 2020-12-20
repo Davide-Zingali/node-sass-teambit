@@ -1,4 +1,8 @@
 nav {
+    div:first-child img {
+        height: 50px;
+    }
+
     display: flex;
     justify-content: space-between;
     li {

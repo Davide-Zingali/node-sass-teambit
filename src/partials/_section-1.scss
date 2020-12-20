@@ -1,21 +1,28 @@
 #sezione-1 {
-    background-color: #FFE7D2;
+    background-color: $sfondo;
+    color: $testo-sfondo;
     text-align: center;
     padding: 100px 0;
+
+    p {
+        margin-top: 30px;
+        font-size: 18px;
+    }
 
     .box {
         width: 60%;
         margin: 0 auto;
 
-        & > img:last-child {
+        .ultima-img {
             height: 370px;
+            margin-bottom: 100px;
         }
     }
 
     hr {
         border: 1px solid #BDB5AF;
         width: 80%;
-        margin: 100px auto;
+        margin: 0 auto 100px auto;
     }
 
     .flex {

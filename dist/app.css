@@ -1,8 +1,32 @@
+.box-testo h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 35px;
+}
+.box-testo p {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 35px;
+}
+.box-testo div {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 35px;
+}
+.box-testo img {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 35px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
   border-bottom: 1px solid black;
+}
+nav div:first-child img {
+  height: 50px;
 }
 nav li {
   display: inline-block;
@@ -70,7 +94,7 @@ header > div .dx img {
   width: 80%;
 }
 header button {
-  background-color: #2f4588;
+  background-color: black;
   color: white;
   padding: 8px 15px;
   border-radius: 8px;
@@ -94,21 +118,27 @@ header i {
 }
 
 #sezione-1 {
-  background-color: #FFE7D2;
+  background-color: #7F14D4;
+  color: white;
   text-align: center;
   padding: 100px 0;
+}
+#sezione-1 p {
+  margin-top: 30px;
+  font-size: 18px;
 }
 #sezione-1 .box {
   width: 60%;
   margin: 0 auto;
 }
-#sezione-1 .box > img:last-child {
+#sezione-1 .box .ultima-img {
   height: 370px;
+  margin-bottom: 100px;
 }
 #sezione-1 hr {
   border: 1px solid #BDB5AF;
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto 100px auto;
 }
 #sezione-1 .flex {
   margin: 100px 0;
@@ -131,11 +161,7 @@ header i {
 }
 #sezione-2 .box .box-testo {
   width: 25%;
-}
-#sezione-2 .box .box-testo > * {
-  margin-bottom: 30px;
-  font-size: 25px;
-  line-height: 35px;
+  margin: 0 30px;
 }
 #sezione-2 .box .box-testo img {
   width: 280px;
@@ -145,15 +171,18 @@ header i {
 }
 
 #sezione-3 {
-  background-color: #FFE7D2;
+  background-color: #7F14D4;
+  color: white;
   text-align: center;
 }
 #sezione-3 h1 {
+  color: white;
   padding-top: 80px;
   font-size: 36px;
   line-height: 60px;
 }
 #sezione-3 #paragrafo-bianco {
+  color: black;
   border: 1px solid #BDB5AF;
   border-radius: 8px;
   background-color: white;
@@ -164,28 +193,35 @@ header i {
   line-height: 27px;
   position: relative;
 }
-#sezione-3 #paragrafo-bianco div:first-child {
+#sezione-3 #paragrafo-bianco #virgolette {
   position: absolute;
   left: 0;
   top: 0;
   transform: translateY(-50%);
 }
-#sezione-3 #paragrafo-bianco div:first-child i {
+#sezione-3 #paragrafo-bianco #virgolette i {
   font-size: 40px;
-  color: #30488F;
+  color: black;
 }
 #sezione-3 #paragrafo-bianco img {
   width: 40px;
   margin-right: 7px;
 }
 #sezione-3 #paragrafo-bianco #face {
-  display: flex;
+  margin-top: 27px;
+  display: inline-flex;
+}
+#sezione-3 #paragrafo-bianco #face > div:last-child {
+  line-height: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  display: block;
 }
 #sezione-3 span {
   margin: 0 20px;
 }
 #sezione-3 button {
-  background-color: #2f4588;
+  background-color: black;
   color: white;
   padding: 8px 15px;
   border-radius: 8px;
@@ -204,8 +240,11 @@ header i {
   display: inline-block;
   color: white;
 }
-#sezione-3 div:last-child {
+#sezione-3 > div:last-child {
   padding: 30px 0 50px 0;
+}
+#sezione-3 > div:last-child a {
+  color: white;
 }
 
 footer {
@@ -240,7 +279,6 @@ footer div:last-child ul li {
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  color: #58402C;
 }
 * a {
   text-decoration: none;
