@@ -22,4 +22,29 @@ nav {
             }
         }
     }
+
+    #dropdown {
+        li:first-child {
+            position: relative;
+        }
+        &:hover #drop {
+            display: block;
+        }
+    }
+
+    #drop {
+        display: none;
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px lightgray;
+        border: $bordo-g;
+        border-radius: 5px;
+        line-height: 38px;
+        position: absolute;
+        left: 0;
+        top: 20px;
+
+        li > a:hover {
+            color: red;
+        }
+    }
 }

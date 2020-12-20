@@ -21,6 +21,26 @@ nav div:last-child button:hover {
   border: 1px solid #30488F;
   color: white;
 }
+nav #dropdown li:first-child {
+  position: relative;
+}
+nav #dropdown:hover #drop {
+  display: block;
+}
+nav #drop {
+  display: none;
+  background-color: white;
+  box-shadow: 1px 1px 8px 1px lightgray;
+  border: 1px solid #BDB5AF;
+  border-radius: 5px;
+  line-height: 38px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+nav #drop li > a:hover {
+  color: red;
+}
 
 header {
   width: 70%;
