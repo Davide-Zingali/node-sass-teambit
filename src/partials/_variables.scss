@@ -1,12 +1,19 @@
 @mixin bottone-social {
-    background-color: #233569;
+    background-color: #2f4588;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 8px;
     border: none;
+    display: inline-flex;
+    vertical-align: middle;
+
+    &:hover {
+        background-color: #233569;
+    }
 
     img {
-        width: 20px;
+        margin-right: 6px;
+        width: 18px;
     }
 }
 

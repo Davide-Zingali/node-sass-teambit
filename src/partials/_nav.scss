@@ -10,5 +10,16 @@ nav {
 
     div:last-child {
         display: flex;
+
+        button {
+            background-color: white;
+            border: 1px solid #30488F;
+            color: #30488F;
+            &:hover {
+                background-color: #30488F;
+                border: 1px solid #30488F;
+                color: white;
+            }
+        }
     }
 }

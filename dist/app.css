@@ -11,6 +11,16 @@ nav li {
 nav div:last-child {
   display: flex;
 }
+nav div:last-child button {
+  background-color: white;
+  border: 1px solid #30488F;
+  color: #30488F;
+}
+nav div:last-child button:hover {
+  background-color: #30488F;
+  border: 1px solid #30488F;
+  color: white;
+}
 
 header {
   width: 70%;
@@ -28,7 +38,7 @@ header > div {
   display: flex;
 }
 header > div .box {
-  padding: 100px 0;
+  padding: 100px 0 30px 0;
 }
 header > div .box div {
   margin: 20px 0;
@@ -40,17 +50,27 @@ header > div .dx img {
   width: 80%;
 }
 header button {
-  background-color: #233569;
+  background-color: #2f4588;
   color: white;
-  padding: 10px 15px;
+  padding: 8px 15px;
   border-radius: 8px;
   border: none;
+  display: inline-flex;
+  vertical-align: middle;
+}
+header button:hover {
+  background-color: #233569;
 }
 header button img {
-  width: 20px;
+  margin-right: 6px;
+  width: 18px;
 }
 header span {
   margin: 0 20px;
+}
+header i {
+  font-size: 12px;
+  color: #263972;
 }
 
 #sezione-1 {
@@ -74,9 +94,14 @@ header span {
   margin: 100px 0;
 }
 
+#sezione-2 i {
+  font-size: 18px;
+  color: #263972;
+  font-weight: bold;
+}
 #sezione-2 .box {
   display: flex;
-  margin: 130px 50px;
+  margin: 100px 50px;
 }
 #sezione-2 .box .box-img {
   width: 50%;
@@ -117,21 +142,50 @@ header span {
   padding: 20px 30px;
   text-align: left;
   line-height: 27px;
+  position: relative;
 }
-#sezione-3 button {
-  background-color: #233569;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 8px;
-  border: none;
+#sezione-3 #paragrafo-bianco div:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+}
+#sezione-3 #paragrafo-bianco div:first-child i {
+  font-size: 40px;
+  color: #30488F;
+}
+#sezione-3 #paragrafo-bianco img {
+  width: 40px;
+  margin-right: 7px;
+}
+#sezione-3 #paragrafo-bianco #face {
   display: flex;
 }
+#sezione-3 span {
+  margin: 0 20px;
+}
+#sezione-3 button {
+  background-color: #2f4588;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  display: inline-flex;
+  vertical-align: middle;
+}
+#sezione-3 button:hover {
+  background-color: #233569;
+}
 #sezione-3 button img {
-  width: 20px;
+  margin-right: 6px;
+  width: 18px;
 }
 #sezione-3 button p {
   display: inline-block;
   color: white;
+}
+#sezione-3 div:last-child {
+  padding: 30px 0 50px 0;
 }
 
 footer {
